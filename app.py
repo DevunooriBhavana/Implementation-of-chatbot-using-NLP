@@ -47,7 +47,7 @@ counter = 0
 
 def main():
     global counter
-    st.title("MediBot using NLP")
+    st.title("MediBot using NLP🤖")
 
     # Create a sidebar menu with options
     menu = ["Home", "Conversation History", "About"]
