@@ -1,90 +1,85 @@
 
-# Chatbot using NLP
+# MediBot: Implementation of Chatbot using NLP  
 
-## Overview
-This project implements a chatbot using Natural Language Processing (NLP) techniques. The chatbot is designed to understand user intents and provide appropriate responses based on predefined patterns and responses. It utilizes the `nltk` library for natural language processing, `scikit-learn` for machine learning, and `streamlit` for creating an interactive web interface.
+MediBot is a healthcare-focused chatbot built using Natural Language Processing (NLP) techniques. It is designed to assist users with common health-related queries in a friendly and interactive way. This project also integrates with *Streamlit* to provide a web-based interface for interacting with the bot.  
 
----
-
-## Features
-- Understands various user intents such as greetings, farewells, gratitude, and more.
-- Provides relevant responses based on user input.
-- Maintains a conversation history that can be viewed by the user.
-- Built using Python and leverages popular libraries for NLP and machine learning.
+## Features  
+- Predefined intents for health-related queries.  
+- Customizable responses tailored for healthcare assistance.  
+- Lightweight and easy to deploy using Streamlit.  
 
 ---
 
-## Technologies Used
-- **Python**
-- **NLTK**
-- **Scikit-learn**
-- **Streamlit**
-- **JSON** for intents data
+## How to Use MediBot  
+
+Follow the steps below to clone and run MediBot locally:  
+
+### 1. Clone the Repository  
+Open your terminal and run the following command to clone the repository:  
+bash  
+git clone https://github.com/your-username/MediBot.git  
+  
+Replace your-username with your actual GitHub username.  
+
+### 2. Navigate to the Project Directory  
+bash  
+cd MediBot  
+  
+
+### 3. Install Dependencies  
+Make sure you have Python installed. Then, create a virtual environment (optional but recommended) and install the required dependencies:  
+bash  
+pip install -r requirements.txt  
+  
+
+### 4. Run the Streamlit Application  
+Once the dependencies are installed, run the Streamlit app:  
+bash  
+streamlit run app.py  
+  
+This command will open the chatbot interface in your default web browser.  
 
 ---
 
-## Installation
-
-### 1. Clone the Repository
-```bash
-git clone <repository-url>
-cd <repository-directory>
-```
-
-### 2. Create a Virtual Environment (Optional but Recommended)
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
-
-### 3. Install Required Packages
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Download NLTK Data
-```python
-import nltk
-nltk.download('punkt')
-```
+## Project Structure  
+- *app.py*: Main file for running the Streamlit interface.  
+- *intents.json*: Contains the predefined intents and responses for MediBot.  
+- *model.py*: Includes NLP implementation to process and classify user inputs.  
+- *requirements.txt*: Lists the required Python packages for the project.  
+- *README.md*: Instructions on how to use the project.  
 
 ---
 
-## Usage
-To run the chatbot application, execute the following command:
-```bash
-streamlit run app.py
-```
+## How to Customize  
+### Modify Intents  
+Update the intents.json file to add or edit chatbot intents and responses.  
 
-Once the application is running, you can interact with the chatbot through the web interface. Type your message in the input box and press Enter to see the chatbot's response.
+### Retrain the Model  
+If you modify the intents, you may need to retrain the NLP model:  
+1. Update the training script (if available, e.g., train.py).  
+2. Run the training script to generate a new model.  
 
----
-
-## Intents Data
-The chatbot's behavior is defined by the `intents.json` file, which contains various tags, patterns, and responses. You can modify this file to add new intents or change existing ones.
-
----
-
-## Conversation History
-The chatbot saves the conversation history in a CSV file (`chat_log.csv`). You can view past interactions by selecting the "Conversation History" option in the sidebar.
+### Update the Streamlit UI  
+Edit app.py to customize the chatbot interface.  
 
 ---
 
-## Contributing
-Contributions to this project are welcome! If you have suggestions for improvements or features, feel free to open an issue or submit a pull request.
+## Contributions  
+We welcome contributions to improve MediBot! If you'd like to contribute:  
+1. Fork the repository.  
+2. Create a new branch for your changes.  
+3. Submit a pull request with a clear description of your updates.  
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## License  
+This project is licensed under the [MIT License](LICENSE).  
 
 ---
 
-## Acknowledgments
-- **NLTK** for natural language processing.
-- **Scikit-learn** for machine learning algorithms.
-- **Streamlit** for building the web interface.
+## Contact  
+If you have any questions or suggestions, feel free to contact us at devunooribhavana@gmail.com.  
 
----
+Happy Chatting with MediBot!  
 
-Replace `<repository-url>` and `<repository-directory>` with the actual URL of your repository and the name of the directory where the project is located. Adjust any sections as necessary to better fit your project's specifics.
+--- 
