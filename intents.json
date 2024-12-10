@@ -1,0 +1,138 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "How are you",
+            "What's up"
+        ],
+        "responses": [
+            "Hi there! How can I assist with your health today?",
+            "Hello! Need help with anything medical?",
+            "Hey! How are you feeling today?"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Take care"
+        ],
+        "responses": [
+            "Goodbye! Stay healthy!",
+            "See you later! Take care of your health.",
+            "Take care! Let me know if you need help again."
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "I appreciate it"
+        ],
+        "responses": [
+            "You're welcome! Stay well.",
+            "No problem! Happy to help.",
+            "Glad I could assist. Take care!"
+        ]
+    },
+    {
+        "tag": "about",
+        "patterns": [
+            "What can you do",
+            "Who are you",
+            "What are you",
+            "What is your purpose"
+        ],
+        "responses": [
+            "I am MediBot, here to assist with health-related queries.",
+            "I am a healthcare chatbot designed to support your medical concerns.",
+            "My purpose is to provide guidance and resources for your health needs."
+        ]
+    },
+    {
+        "tag": "help",
+        "patterns": [
+            "Help",
+            "I need help",
+            "Can you help me",
+            "What should I do"
+        ],
+        "responses": [
+            "Sure, how can I assist with your health today?",
+            "I'm here to help with any medical concerns. Please share.",
+            "Let me know how I can help you feel better!"
+        ]
+    },
+    {
+        "tag": "symptoms",
+        "patterns": [
+            "I feel sick",
+            "I have these symptoms",
+            "What could be the reason for my symptoms"
+        ],
+        "responses": [
+            "I'm not a doctor, but I can provide general information. What are your symptoms?",
+            "Please describe your symptoms so I can give some guidance.",
+            "It's best to consult a healthcare professional, but I'm here to help with initial advice."
+        ]
+    },
+    {
+        "tag": "healthy_diet",
+        "patterns": [
+            "What is a healthy diet",
+            "How can I eat healthily",
+            "Diet tips"
+        ],
+        "responses": [
+            "A healthy diet includes fruits, vegetables, lean proteins, and whole grains.",
+            "Eating balanced meals and avoiding processed foods is key to staying healthy.",
+            "Focus on nutrient-rich foods and proper portion sizes to maintain good health."
+        ]
+    },
+    {
+        "tag": "mental_health",
+        "patterns": [
+            "I'm feeling stressed",
+            "How do I improve my mental health",
+            "Tips for mental health"
+        ],
+        "responses": [
+            "Practice mindfulness, regular exercise, and talk to someone you trust.",
+            "Deep breathing and relaxation techniques can help reduce stress.",
+            "Take care of yourself by resting, staying active, and seeking support when needed."
+        ]
+    },
+    {
+        "tag": "exercise",
+        "patterns": [
+            "What exercises should I do",
+            "How can I stay fit",
+            "Best workouts for health"
+        ],
+        "responses": [
+            "Regular activities like walking, jogging, or yoga can keep you fit.",
+            "Include both cardio and strength training in your routine for overall health.",
+            "Staying active is key. Find an activity you enjoy to make it sustainable."
+        ]
+    },
+    {
+        "tag": "hydration",
+        "patterns": [
+            "How much water should I drink",
+            "Importance of staying hydrated",
+            "Tips for hydration"
+        ],
+        "responses": [
+            "Drinking 8-10 glasses of water a day is recommended for most adults.",
+            "Staying hydrated helps maintain energy, focus, and overall health.",
+            "Always carry a water bottle and drink regularly throughout the day."
+        ]
+    }
+]
